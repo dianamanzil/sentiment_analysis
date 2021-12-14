@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width,initial-scale=1.0">
+        <title>SNA dan Sentiment Analysis Twitter Menggunakan Metode SVM</title>
+    </head>
+    <body>
+        <main class="page contact-us-page">
+            <section class="clean-block clean-form dark">
+                <div class="container">
+					<div class="block-heading">
+						<h1>SNA dan Sentiment Analysis Twitter Menggunakan Metode SVM</h1>
+					</div>
+					<form action="/main" method="POST">
+						<fieldset>
+						<legend>
+							<h3>Pencarian Keyword</h3>
+						</legend>
+						<p class="form-group"><label>Keywords : </label><input class="form-control" type="text" name="keywords"></p>
+						<p class="form-group"><label>Jumlah Tweet : </label><input class="form-control" type="number" name="tnum"></p>
+						<p class="form-group"><button class="btn btn-primary btn-block" type="submit">Search Now!</button></p>
+					</form>
+                </div>
+            </section>
+        </main>                    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/js/bootstrap.bundle.min.js"></script>
+        <script src="{{ url_for('static',filename='assets/js/script.min.js') }}"></script>
+
+    </body>
+</html>
