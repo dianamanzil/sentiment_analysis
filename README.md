@@ -5,4 +5,4 @@ Untuk sentiment Analysis menggunakan data tweet dengan keyword tertentu. Tweet-t
 
 Social Analysis Network untuk mengetahui hubungan antar username . Data yang digunakan yaitu username yang melakukan retweet pada tweet tersebut. 
 
-Kedua Komponen tersebut disajikan dalam bentuk localhost dengan menggunakan Flashk.
+Kedua Komponen tersebut disajikan dalam bentuk localhost dengan menggunakan Flask.
