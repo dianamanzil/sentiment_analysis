@@ -38,10 +38,10 @@ def main(request):
   keywords = request.form["keywords"]
   tnum =request.form["tnum"]
   # Call twitter api keys
-  consumer_key = 'i8DnLYknu3idenVhWnN6gOIvc'
-  consumer_secret = 'u5KPP5y8M9Al7uue0v67GoOZRiM5PsqXxMYiOpMGnBzfts8jDc'
-  access_token = '1453916526-9ulUVrATNpG6es4SlGG04OwmebhY50agyXaR33d'
-  access_secret = 'xWAAazPNCacYjHcObpGgNLR7ZJDdb3Y4xKPoT1toDsrPl'
+  consumer_key = 'xxxxxxxxxxxxxx'
+  consumer_secret = 'xxxxxxxxxxx'
+  access_token = 'xxxxxxxxxxxxxxx'
+  access_secret = 'xxxxxxxxxxxxxxx'
   auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
   auth.set_access_token(access_token, access_secret)
   api = tweepy.API(auth)
